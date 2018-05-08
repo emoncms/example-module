@@ -8,9 +8,9 @@
 
 <div id="wrapper">
   <div class="sidenav">
-    <div class="sidenav_inner">
+    <div class="sidenav-inner">
       
-      <ul class="examplemenu">
+      <ul class="sidenav-menu">
           <li><a href="<?php echo $path; ?>example/view/1">Menu Item 1</a></li>
           <li><a href="<?php echo $path; ?>example/view/2">Menu Item 2</a></li>
           <li><a href="<?php echo $path; ?>example/view/3">Menu Item 3</a></li>

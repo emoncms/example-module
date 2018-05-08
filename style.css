@@ -22,16 +22,16 @@ Side nav
   z-index: 1000; 
 }
 
-.sidenav_inner {
+.sidenav-inner {
   padding-top:20px;
 }
 
-#sidebar-open {
+.sidenav-open {
   float:left;
   margin-right:10px;
 }
 
-#sidebar-close {
+.sidenav-close {
   float:right; 
   cursor:pointer; 
   padding:10px;
@@ -55,15 +55,15 @@ Side nav
 /* -------------------------------------------------------------------
 Side nav: app list
 --------------------------------------------------------------------*/
-.appmenu {
+.sidenav-menu {
   list-style: none;
   margin:0px;
   padding:0px;
 }
 
-.appmenu li {
+.sidenav-menu li {
 }
 
-.appmenu li:hover {
+.sidenav-menu li:hover {
   background-color: #444;
 }
