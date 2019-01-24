@@ -1,10 +1,9 @@
 <?php 
     global $path; 
     $version = 1;
-?>   
-     
-<link rel="stylesheet" href="<?php echo $path; ?>Modules/example/style.css">
+?>
 
+<link rel="stylesheet" href="<?php echo $path; ?>Lib/misc/sidebar.css?v=<?php echo $version; ?>">
 
 <div id="wrapper">
   <div class="sidenav">
@@ -32,10 +31,9 @@
   </div>
 </div>
 
-<script type="text/javascript" src="<?php echo $path; ?>Modules/example/sidebar.js?v=<?php echo $version; ?>"></script>
+<script type="text/javascript" src="<?php echo $path; ?>Lib/misc/sidebar.js?v=<?php echo $version; ?>"></script>
 
 <script>
-
+init_sidebar({menu_element:"#example_menu"});
 var path = "<?php echo $path; ?>";
-
 </script>
